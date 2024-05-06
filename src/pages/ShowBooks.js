@@ -101,8 +101,8 @@ const ShowBooks = () => {
                 id,
                 name,
                 date: parseInt(date),
-                author: authorFind.name,
-                genre: genreFind.name
+                author: authorFind.id,
+                genre: genreFind.id
             },
             operation === 1 ? '/api/Books' : '/api/Books/' + id
         )

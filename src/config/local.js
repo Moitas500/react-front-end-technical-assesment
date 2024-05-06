@@ -1,3 +1,3 @@
 export const localEnviroment = {
-    serviceHost: 'http://localhost:5002',
+    serviceHost: 'http://localhost:3001',
 }
